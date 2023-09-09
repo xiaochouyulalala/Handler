@@ -37,12 +37,12 @@
 
 ## Todo
 
--[x]window端流畅运行，识别准确
--[]使用mediapipe的task模型文件进行手势识别(目前Google还未支持windows端模型文件读取)
--[]完善前端，增加可调节的参数
--[]增加更多动作映射
--[]适配macos，linux
--[]适配移动端
+- [x]window端流畅运行，识别准确
+- []使用mediapipe的task模型文件进行手势识别(目前Google还未支持windows端模型文件读取)
+- []完善前端，增加可调节的参数
+- []增加更多动作映射
+- []适配macos，linux
+- []适配移动端
 
 ## 项目联系
 
