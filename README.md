@@ -37,8 +37,7 @@
 ## 项目演示
 
 - 手柄测试+游戏演示
-
-[<video src="./Handler/demo/demo.mp4"></video>](https://youtu.be/EMBXtiW4zEc)
+[![Handler Demo](https://res.cloudinary.com/marcomontalbano/image/upload/v1694251204/video_to_markdown/images/youtube--EMBXtiW4zEc-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://www.youtube.com/watch?v=EMBXtiW4zEc "Handler Demo")
 
 - 代码优化后游玩地平线4
 
