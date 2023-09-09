@@ -34,8 +34,15 @@
 - 打开本项目,选择想要玩的赛车游戏
 - 按照界面上的提示,做出相应的手势
 - 享受游戏吧!
-- 
 ## 项目演示
+
+- 手柄测试+游戏演示
+
+<video src="D:\racingcontroller\Handler\demo\demo.mp4"></video>
+
+- 代码优化后游玩地平线4
+
+<iframe src="//player.bilibili.com/player.html?aid=363126433&bvid=BV1r94y1s7bv&cid=1261056072&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
 
 ## Todo
 
