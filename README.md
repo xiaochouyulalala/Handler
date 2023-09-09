@@ -38,11 +38,12 @@
 
 - 手柄测试+游戏演示
 
-<video src="./Handler/demo/demo.mp4"></video>
+[<video src="./Handler/demo/demo.mp4"></video>](https://youtu.be/EMBXtiW4zEc)
 
 - 代码优化后游玩地平线4
 
 【手势控制开车？手势控制翻车！深度学习手势交互项目游玩地平线4实机演示】 
+
 https://www.bilibili.com/video/BV1r94y1s7bv/?share_source=copy_web&vd_source=60aeca39dc2529deea2a3d691853cbf7
 
 ## Todo
