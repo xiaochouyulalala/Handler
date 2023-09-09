@@ -1,22 +1,57 @@
-import vgamepad as vg
+import pyautogui
+import time
 
-gamepad = vg.VX360Gamepad()
+# 模拟按下和释放键盘按键
+def press_key(key):
+    pyautogui.keyDown(key)
+
+def release_key(key):
+    pyautogui.keyUp(key)
+
+# 模拟键盘输入
+def type_text(text):
+    pyautogui.write(text)
+
+# 间隔一段时间
+def sleep(seconds):
+    time.sleep(seconds)
 
 
 def gamepad_Control(signal):
-    gamepad.reset()
     angle = signal["Angle"]
     if signal["up"] and not signal["bark"]:
-        gamepad.right_trigger_float(value_float=0.7)
-        gamepad.left_joystick_float(x_value_float=angle, y_value_float=0.5)
+        press_key("w")
         # print("前进")
+        if angle>0:
+            press_key("d")
+            sleep(0.1/(1+angle))
+            release_key("d")
+        elif angle < 0:
+            press_key("a")
+            sleep(0.1/(1-angle))
+            release_key("a")
+        release_key("w")
     elif signal["bark"]:
-        gamepad.left_trigger_float(value_float=0.8)
-        gamepad.left_joystick_float(x_value_float=angle, y_value_float=-0.5)
+        press_key("s")
+        sleep(2/(1+angle))
         # print("后退")
+        if angle>0:
+            press_key("d")
+            sleep(0.01/(1+angle))
+            release_key("d")
+        elif angle < 0:
+            press_key("a")
+            sleep(0.01/(1-angle))
+            release_key("a")
+        release_key("s")
     elif not signal["up"] and not signal["bark"]:
-        gamepad.left_joystick_float(x_value_float=angle, y_value_float=0.5)
-
-    gamepad.update()
+        if angle>0:
+            press_key("d")
+            sleep(0.01/(1+angle))
+            release_key("d")
+        elif angle < 0:
+            press_key("a")
+            sleep(0.01/(1-angle))
+            release_key("a")
 
     return
