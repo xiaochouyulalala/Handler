@@ -38,7 +38,7 @@
 
 - 手柄测试+游戏演示
 
-<video src="./Handler\demo\demo.mp4"></video>
+<video src="./Handler/demo/demo.mp4"></video>
 
 - 代码优化后游玩地平线4
 
