@@ -24,9 +24,9 @@
 ## 项目安装
 
 - 安装Python3.8版本
-- 安装OpenCV、meidapipe、vgamepad、PyQt5等第三方库
+- 安装`requiremens.txt`内的OpenCV、meidapipe、vgamepad、PySide2等第三方库
 - 下载本项目源码
-- 运行main.py文件
+- 运行`main.py`文件
 
 ## 项目使用
 
@@ -34,15 +34,17 @@
 - 打开本项目,选择想要玩的赛车游戏
 - 按照界面上的提示,做出相应的手势
 - 享受游戏吧!
+- 
+## 项目演示
 
 ## Todo
 
-- [x]window端流畅运行，识别准确
-- []使用mediapipe的task模型文件进行手势识别(目前Google还未支持windows端模型文件读取)
-- []完善前端，增加可调节的参数
-- []增加更多动作映射
-- []适配macos，linux
-- []适配移动端
+- [x] window端流畅运行，识别准确
+- [ ] 使用mediapipe的task模型文件进行手势识别(目前Google还未支持windows端模型文件读取)
+- [ ] 完善前端，增加可调节的参数
+- [ ] 增加更多动作映射
+- [ ] 适配macos，linux
+- [ ] 适配移动端
 
 ## 项目联系
 
