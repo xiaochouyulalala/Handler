@@ -1,62 +1,80 @@
-# Handler
-基于Mediapipe的手势控制赛车游戏程序
 
-## 项目介绍
+# Handler 🚗✋
 
-这是一个使用人工智能技术实现手势控制赛车游戏的项目,旨在通过手势识别技术,让用户可以用自己的手势来操控赛车,实现更自然、更沉浸的游戏体验。
+**Gesture-Controlled Racing Game Based on Mediapipe**
 
-## 项目功能
+[![Python](https://img.shields.io/badge/Python-3.8-blue.svg)](https://www.python.org/)
+[![OpenCV](https://img.shields.io/badge/OpenCV-Image%20Processing-green)](https://opencv.org/)
+[![Mediapipe](https://img.shields.io/badge/Mediapipe-Hand%20Tracking-orange)](https://developers.google.com/mediapipe)
 
-- 使用USB摄像头采集用户的手势图像
-- 识别用户的手势类别和方向
-- 根据手势生成游戏手柄指令
-- 控制赛车游戏的转向、加速等动作
-- 支持多种主流赛车游戏
+## 📖 Introduction
 
-## 项目技术
+**Handler** is a gesture-controlled racing game project powered by **Mediapipe** and **OpenCV**.
+It enables players to control cars using hand gestures, delivering a **natural** and **immersive** gaming experience.
 
-- 使用OpenCV进行图像处理
-- 使用meidapipe模型,实现手势关键点识别
-- 使用手指角度关系进行主要手势识别
-- 使用vgamepad生成虚拟游戏手柄信号,实现游戏控制
-- 使用PySide设计用户界面,提供实时反馈和参数配置
 
-## 项目安装
+## ✨ Features
 
-- 安装Python3.8版本
-- 安装`requiremens.txt`内的OpenCV、meidapipe、vgamepad、PySide2等第三方库
-- 下载本项目源码
-- 运行`main.py`文件
+* 🎥 **USB Camera Input** – Capture real-time hand gestures
+* ✋ **Gesture Recognition** – Detect categories and directions
+* 🎮 **Virtual Gamepad Mapping** – Convert gestures into control signals
+* 🏎 **Game Control** – Support steering, acceleration, and braking
+* 🌍 **Multi-Game Support** – Works with popular racing titles
 
-## 项目使用
 
-- 连接USB摄像头,确保摄像头能正常工作
-- 打开本项目,选择想要玩的赛车游戏
-- 按照界面上的提示,做出相应的手势
-- 享受游戏吧!
-## 项目演示
+## 🛠 Technologies
 
-- 手柄测试+游戏演示
+* **OpenCV** → Image processing
+* **Mediapipe** → Hand landmark detection
+* **Custom Logic** → Finger-angle-based gesture recognition
+* **vgamepad** → Virtual gamepad signal generation
+* **PySide2** → GUI for real-time feedback & parameter tuning
+
+
+## 🚀 Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/yourusername/handler.git
+cd handler
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Run the program
+python main.py
+```
+
+**Requirements:**
+
+* Python **3.8**
+* OpenCV, Mediapipe, vgamepad, PySide2
+
+
+## 🎮 Usage
+
+1. Connect a **USB camera** and ensure it works
+2. Launch `main.py`
+3. Select a racing game from the interface
+4. Perform gestures as instructed
+5. Enjoy immersive gesture-based driving! 🚗💨
+
+
+## 📺 Demo
+
 [![Handler Demo](https://res.cloudinary.com/marcomontalbano/image/upload/v1694251204/video_to_markdown/images/youtube--EMBXtiW4zEc-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://www.youtube.com/watch?v=EMBXtiW4zEc "Handler Demo")
 
-- 代码优化后游玩地平线4
 
-【手势控制开车？手势控制翻车！深度学习手势交互项目游玩地平线4实机演示】 
+## 📌 Roadmap / Todo
 
-https://www.bilibili.com/video/BV1r94y1s7bv/?share_source=copy_web&vd_source=60aeca39dc2529deea2a3d691853cbf7
+* [x] Improve **Windows** performance & accuracy
+* [ ] Support **Mediapipe task models** (pending Windows support)
+* [ ] Enhanced frontend with adjustable parameters
+* [ ] Add more **gesture-to-action mappings**
+* [ ] macOS & Linux adaptation
+* [ ] Mobile support
 
-## Todo
 
-- [x] window端流畅运行，识别准确
-- [ ] 使用mediapipe的task模型文件进行手势识别(目前Google还未支持windows端模型文件读取)
-- [ ] 完善前端，增加可调节的参数
-- [ ] 增加更多动作映射
-- [ ] 适配macos，linux
-- [ ] 适配移动端
+## 📬 Contact
 
-## 项目联系
-
-如果你对本项目有任何问题或建议,欢迎联系我们:
-
-- 邮箱:1378198481@qq.com
-- 微信:
+* **Email:** [1378198481@qq.com](mailto:1378198481@qq.com)
